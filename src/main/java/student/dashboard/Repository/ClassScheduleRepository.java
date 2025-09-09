@@ -8,5 +8,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import student.dashboard.Model.ClassSchedule;
 
 public interface ClassScheduleRepository extends JpaRepository<ClassSchedule, Long> {
-    List<ClassSchedule> findByDate(LocalDate date);
+	List<ClassSchedule> findByDate(LocalDate date);
 }
